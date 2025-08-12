@@ -1,0 +1,32 @@
+---
+sidebar_position: 2
+---
+
+# Troubleshooting
+
+Having trouble with your smart plug, we've got you covered.
+
+## I have updated the firmware on my Tasmota plug and now it appears dead / no lights and the button doesn't work {#reconfigure}
+
+Follow these steps to get back on track:
+
+- Plug in the plug and wait for a wifi network to appear (usually this will start with tasmota- )
+- Connect to the tasmota network and re-enter your wifi details
+- Re-apply the configuration either using this template
+
+```
+{"NAME":"Smart Hut PM","GPIO":[0,0,0,2656,224,2624,320,2720,0,0,0,0,0,0,0,0,0,0,0,0,32,1],"FLAG":0,"BASE":1}
+```
+- or via the UI
+
+![UI config](/img/esp32c3-plug-config.png)
+
+:::tip
+
+Always backup Tasmota device configuration before updating. Tasmota does *not* retain configuration across updates.
+
+:::
+
+## I have reset the configuration on my Tasmota plug and now some or all functionality is missing or doesn't work
+
+Follow the steps [above](#reconfigure) 
