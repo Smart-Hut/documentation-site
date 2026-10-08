@@ -1,0 +1,8 @@
+{
+  "label": "Tasmota V2",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for the newer Tasmota UI used on newer Smart Hut plugs."
+  }
+}
