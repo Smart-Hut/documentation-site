@@ -1,0 +1,8 @@
+{
+  "label": "ESPHome Features",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "smart-plug/esphome-features/overview"
+  }
+}
