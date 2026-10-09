@@ -23,10 +23,28 @@ Follow these steps to get back on track:
 
 :::tip
 
-Always backup Tasmota device configuration before updating. Tasmota does *not* retain configuration across updates.
+Only install firmware that is known to be compatible with the Smart Hut plug. Flashing the wrong firmware can erase configuration or make the sealed plug unusable.
 
 :::
 
 ## I have reset the configuration on my Tasmota plug and now some or all functionality is missing or doesn't work
 
 Follow the steps [above](#reconfigure) 
+
+## I changed Wi-Fi and my Tasmota plug will not reconnect
+
+On newer Smart Hut Tasmota firmware, press the physical button three times to enter Wi-Fi configuration mode. Connect to the temporary Tasmota Wi-Fi network, then open `http://192.168.4.1` and enter the new Wi-Fi details.
+
+The temporary network may be named `smarthutpm-XXXXXX`, `smarthutplug_XXXXXX-####`, or `tasmota_XXXXXX-####` depending on firmware version.
+
+## I cannot find module, template, backup, or restore configuration
+
+Newer Smart Hut Tasmota firmware hides some risky stock Tasmota buttons from the normal configuration page to prevent accidental misconfiguration. The plug template is built into the firmware, so normal users should not need to change module or template settings.
+
+Advanced users can still use the Tasmota console where appropriate, but changing hardware configuration can break relay, LED, button, or power monitoring behaviour.
+
+## Firmware upgrade asks me to confirm the risk
+
+This is expected on newer Smart Hut Tasmota firmware. The firmware upgrade page requires explicit confirmation before OTA or file upload upgrades can continue.
+
+Only continue if you are intentionally installing compatible firmware for this plug.

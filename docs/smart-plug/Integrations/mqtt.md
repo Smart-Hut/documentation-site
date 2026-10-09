@@ -2,6 +2,10 @@
 
 You'll need to have a working [MQTT broker](https://www.google.com/search?q=setting+up+an+mqtt+broker) to use MQTT. HiveMQ has some great MQTT [essentials articles](https://www.hivemq.com/mqtt/) if you'd like to know more about MQTT.
 
+:::tip[Newer Smart Hut Tasmota firmware]
+Newer plugs use a simplified Tasmota interface with a main-menu `MQTT` button. See [Tasmota V2 MQTT](../v2/mqtt.md) if your plug has the newer interface.
+:::
+
 ## Configuring MQTT using the WebUI
 
 Go to **Configuration -> Configure** Other and make sure "MQTT Enable" box is checked.
