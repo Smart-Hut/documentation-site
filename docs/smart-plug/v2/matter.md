@@ -14,7 +14,9 @@ After saving, the plug restarts and opens Matter commissioning for a limited tim
 
 If commissioning is active, the pairing information appears on the plug's main interface after the restart.
 
-Use the QR code or manual pairing code from the plug page to add it to your Matter controller, such as Apple Home, Google Home, SmartThings, or Home Assistant.
+Use the QR code or manual pairing code from the plug page to add it to your Matter controller, such as Amazon Alexa, Apple Home, Google Home, SmartThings, or Home Assistant.
+
+For Alexa requirements and step-by-step pairing instructions, see [Amazon Alexa](../Integrations/alexa.md).
 
 ## Advanced Matter Options
 
