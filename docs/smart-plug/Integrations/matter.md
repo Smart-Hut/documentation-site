@@ -2,6 +2,8 @@
 
 Our Tasmota plugs support Matter and it is enabled by default. You can find the setup code to add your plug to your Matter network on the main page of the plug after connecting to your wifi network.
 
+For Alexa app and voice control, follow the [Amazon Alexa setup guide](./alexa.md).
+
 :::tip[Newer Smart Hut Tasmota firmware]
 Newer plugs have a `Matter` button on the main Tasmota page. See [Tasmota V2 Matter](../v2/matter.md) if your plug has the newer interface.
 :::

@@ -56,6 +56,7 @@ Your device running Tasmota is now ready to be controlled.
 
 Useful next steps:
 
+- Use [Amazon Alexa](../Integrations/alexa.md) for Alexa app and voice control.
 - Use [Matter](../Integrations/matter.md) if you want to add the plug to a Matter controller.
 - Use [MQTT](../Integrations/mqtt.md) if you want to integrate through MQTT or the Home Assistant Tasmota integration.
 - Review the official Tasmota [commands](https://tasmota.github.io/docs/Commands/) and [features](https://tasmota.github.io/docs/Features/) if you need advanced control.
